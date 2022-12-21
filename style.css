@@ -1,0 +1,87 @@
+.title{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+hr{
+    width: 170px;
+    text-align: center;
+    margin: 0 auto;
+    color: #EC7979;
+    border: 1px solid #EC7979;
+    margin-bottom: 40px;
+}
+
+.text{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    margin-bottom: 110px;
+}
+
+article{
+    
+}
+
+.card__title{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.card__text{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+
+
+.contact-form .form-field{
+    position: relative;
+    margin: 30px;
+}
+
+.contact-form .input-text{
+    display: block;
+    max-width: 571px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label{
+    transform: translateY(-24px);
+}
+.contact-form .input-text:focus{
+    outline: none;
+}
+
+.contact-form .label{
+    position: absolute;
+    top: -16px;
+    left: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+    transition: transform 0.2s ease-in-out;
+}
+
+.contact-form .form-field:last-child .label{
+    position: absolute;
+    top: -192px;
+    left: 12px;
+}
